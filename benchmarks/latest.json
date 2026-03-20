@@ -1,15 +1,15 @@
 {
-  "timestampUtc": "2026-03-20T18:12:09.709262+00:00",
+  "timestampUtc": "2026-03-20T18:16:02.239074+00:00",
   "benchmarkId": "enigmata-replay-v1",
-  "parserFingerprint": "0a4088d2f282",
+  "parserFingerprint": "6ea866a4b3f1",
   "iterations": 5,
   "qualityScore": 1.0,
-  "medianBenchmarkSeconds": 0.03242271299677668,
+  "medianBenchmarkSeconds": 0.03171920499880798,
   "status": "keep",
   "reason": "candidate improved quality and/or speed without regressing either metric",
   "baseline": {
     "quality_score": 1.0,
-    "median_benchmark_seconds": 0.045984
+    "median_benchmark_seconds": 0.032423
   },
   "runs": [
     {
@@ -17,14 +17,14 @@
       "testsPassed": 12,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.03257301700068638,
+      "benchmarkSeconds": 0.032163432999368524,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.03257301700068638,
-        "replayElapsedSeconds": 0.03257301700068638,
-        "replayColdElapsedSeconds": 0.019548673000826966,
-        "replayWarmElapsedSeconds": 0.013024343999859411,
-        "fixtureElapsedSeconds": 0.004729937001684448,
-        "cacheResolutionElapsedSeconds": 0.0161287060000177,
+        "combinedElapsedSeconds": 0.032163432999368524,
+        "replayElapsedSeconds": 0.032163432999368524,
+        "replayColdElapsedSeconds": 0.018668382999749156,
+        "replayWarmElapsedSeconds": 0.013495049999619368,
+        "fixtureElapsedSeconds": 0.004792665000422858,
+        "cacheResolutionElapsedSeconds": 0.016065055002400186,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -56,7 +56,7 @@
         "replayWarmVersionCacheHits": 26,
         "replayWarmHashCacheHits": 28
       },
-      "elapsedSeconds": 0.1466956680014846,
+      "elapsedSeconds": 0.14561504800076364,
       "failures": []
     },
     {
@@ -64,14 +64,14 @@
       "testsPassed": 12,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.03242271299677668,
+      "benchmarkSeconds": 0.03215836399976979,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.03242271299677668,
-        "replayElapsedSeconds": 0.03242271299677668,
-        "replayColdElapsedSeconds": 0.019552439996914472,
-        "replayWarmElapsedSeconds": 0.012870272999862209,
-        "fixtureElapsedSeconds": 0.005848957000125665,
-        "cacheResolutionElapsedSeconds": 0.01612749400010216,
+        "combinedElapsedSeconds": 0.03215836399976979,
+        "replayElapsedSeconds": 0.03215836399976979,
+        "replayColdElapsedSeconds": 0.01927861399963149,
+        "replayWarmElapsedSeconds": 0.012879750000138301,
+        "fixtureElapsedSeconds": 0.005611990000033984,
+        "cacheResolutionElapsedSeconds": 0.01572654700066778,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -103,7 +103,7 @@
         "replayWarmVersionCacheHits": 26,
         "replayWarmHashCacheHits": 28
       },
-      "elapsedSeconds": 0.14401586600070004,
+      "elapsedSeconds": 0.14366605399845866,
       "failures": []
     },
     {
@@ -111,14 +111,14 @@
       "testsPassed": 12,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.032103409997944254,
+      "benchmarkSeconds": 0.030912966994947055,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.032103409997944254,
-        "replayElapsedSeconds": 0.032103409997944254,
-        "replayColdElapsedSeconds": 0.019318808997923043,
-        "replayWarmElapsedSeconds": 0.012784601000021212,
-        "fixtureElapsedSeconds": 0.004834444000152871,
-        "cacheResolutionElapsedSeconds": 0.015761693997774273,
+        "combinedElapsedSeconds": 0.030912966994947055,
+        "replayElapsedSeconds": 0.030912966994947055,
+        "replayColdElapsedSeconds": 0.018079392997606192,
+        "replayWarmElapsedSeconds": 0.012833573997340864,
+        "fixtureElapsedSeconds": 0.00479630200061365,
+        "cacheResolutionElapsedSeconds": 0.016265422997093992,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -150,7 +150,7 @@
         "replayWarmVersionCacheHits": 26,
         "replayWarmHashCacheHits": 28
       },
-      "elapsedSeconds": 0.13902677100122673,
+      "elapsedSeconds": 0.13998638699922594,
       "failures": []
     },
     {
@@ -158,14 +158,14 @@
       "testsPassed": 12,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.031950733999110525,
+      "benchmarkSeconds": 0.03153814400138799,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.031950733999110525,
-        "replayElapsedSeconds": 0.031950733999110525,
-        "replayColdElapsedSeconds": 0.019183143998816377,
-        "replayWarmElapsedSeconds": 0.012767590000294149,
-        "fixtureElapsedSeconds": 0.004816800999833504,
-        "cacheResolutionElapsedSeconds": 0.015847835999011295,
+        "combinedElapsedSeconds": 0.03153814400138799,
+        "replayElapsedSeconds": 0.03153814400138799,
+        "replayColdElapsedSeconds": 0.018795773001329508,
+        "replayWarmElapsedSeconds": 0.012742371000058483,
+        "fixtureElapsedSeconds": 0.004774049997649854,
+        "cacheResolutionElapsedSeconds": 0.01587114999711048,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -197,7 +197,7 @@
         "replayWarmVersionCacheHits": 26,
         "replayWarmHashCacheHits": 28
       },
-      "elapsedSeconds": 0.14034064800216584,
+      "elapsedSeconds": 0.13919077800164814,
       "failures": []
     },
     {
@@ -205,14 +205,14 @@
       "testsPassed": 12,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.03293295500043314,
+      "benchmarkSeconds": 0.03171920499880798,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.03293295500043314,
-        "replayElapsedSeconds": 0.03293295500043314,
-        "replayColdElapsedSeconds": 0.019480975999613293,
-        "replayWarmElapsedSeconds": 0.013451979000819847,
-        "fixtureElapsedSeconds": 0.004864590999204665,
-        "cacheResolutionElapsedSeconds": 0.01618973099903087,
+        "combinedElapsedSeconds": 0.03171920499880798,
+        "replayElapsedSeconds": 0.03171920499880798,
+        "replayColdElapsedSeconds": 0.01895384099771036,
+        "replayWarmElapsedSeconds": 0.012765364001097623,
+        "fixtureElapsedSeconds": 0.00490891400113469,
+        "cacheResolutionElapsedSeconds": 0.015581945001031272,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -244,7 +244,7 @@
         "replayWarmVersionCacheHits": 26,
         "replayWarmHashCacheHits": 28
       },
-      "elapsedSeconds": 0.14310103100069682,
+      "elapsedSeconds": 0.13899574899915024,
       "failures": []
     }
   ],
