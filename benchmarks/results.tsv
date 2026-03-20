@@ -36,3 +36,13 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T19:53:54.184360+00:00	enigmata-replay-v1	284f070150da	1.000000	0.030803	discard	final baseline verification after lru_cache revert
 2026-03-20T20:01:33.946476+00:00	enigmata-replay-v1	150e3cae6184	1.000000	0.030750	keep	batch cache loading: load_many to reduce file open overhead
 2026-03-20T20:03:21.273869+00:00	enigmata-replay-v1	1aebdb3cd9d2	1.000000	0.030714	keep	optimize resource classification: use elif to skip lora check when checkpoint found
+2026-03-20T20:04:21.272000+00:00	enigmata-replay-v1	cc8622f211d3	1.000000	0.031870	discard	inline normalize_text in resource classification hot path
+2026-03-20T20:05:31.068978+00:00	enigmata-replay-v1	a83af81247e3	1.000000	0.031018	discard	optimize dedupe_resources: compute score only when needed
+2026-03-20T20:07:11.725442+00:00	enigmata-replay-v1	1aebdb3cd9d2	1.000000	0.032484	discard	final optimization summary and baseline confirmation
+2026-03-20T20:08:24.592081+00:00	enigmata-replay-v1	2cb03956a0bf	1.000000	0.026812	keep	replace json with orjson for cache operations
+2026-03-20T20:13:31.401908+00:00	enigmata-replay-v1	d1040b7ba2bf	1.000000	0.029086	discard	string interning for normalize_hash and normalize_text
+2026-03-20T20:18:03.348458+00:00	enigmata-replay-v1	ec5587614ffe	1.000000	0.029021	discard	fast-path _safe_key with isdigit/isalnum checks
+2026-03-20T20:22:36.803624+00:00	enigmata-replay-v1	ebece0f51c5b	1.000000	0.029182	discard	skip str() in normalize_text when value is already string
+2026-03-20T20:25:07.051365+00:00	enigmata-replay-v1	2cb03956a0bf	1.000000	0.029793	discard	baseline check after reverts
+2026-03-20T20:25:38.923950+00:00	enigmata-replay-v1	2cb03956a0bf	1.000000	0.028745	discard	verify orjson baseline consistency
+2026-03-20T20:27:11.161747+00:00	enigmata-replay-v1	deecbdab1f75	1.000000	0.022354	keep	use orjson in json_dumps_machine for output serialization
