@@ -22,9 +22,10 @@ This repository stores two things:
 The parser only advances when it is not worse on either gated metric:
 
 - quality score must not go down
-- median local eval time must not go up
+- median benchmark-workload time must not go up
 
 Prefer changes that are both better and faster.
+Benchmark rows are workload-versioned so new benchmark workloads can establish their own baseline.
 
 ## Benchmark Command
 

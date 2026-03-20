@@ -1,51 +1,105 @@
 {
-  "timestampUtc": "2026-03-20T15:31:09.977871+00:00",
-  "parserFingerprint": "7b96cafc0a98",
+  "timestampUtc": "2026-03-20T15:48:52.552105+00:00",
+  "benchmarkId": "fixture-suite-v2",
+  "parserFingerprint": "133433ce421a",
   "iterations": 5,
   "qualityScore": 1.0,
-  "medianEvalSeconds": 0.0002861199973267503,
+  "medianBenchmarkSeconds": 0.005623594999633497,
   "status": "keep",
-  "reason": "baseline",
-  "baseline": null,
+  "reason": "candidate improved quality and/or speed without regressing either metric",
+  "baseline": {
+    "quality_score": 1.0,
+    "median_benchmark_seconds": 0.00717
+  },
   "runs": [
     {
-      "testsTotal": 5,
-      "testsPassed": 5,
+      "testsTotal": 8,
+      "testsPassed": 8,
       "testsFailed": 0,
       "score": 1.0,
-      "elapsedSeconds": 0.0004733340028906241,
+      "benchmarkSeconds": 0.006126923999545397,
+      "benchmarkWorkload": {
+        "elapsedSeconds": 0.006126923999545397,
+        "imageCount": 80,
+        "postCount": 20,
+        "rowsWithCheckpoint": 80,
+        "totalPromptTags": 160,
+        "totalInlinePromptLoras": 160,
+        "rowsWithNegativePrompt": 80
+      },
+      "elapsedSeconds": 0.007400746002531378,
       "failures": []
     },
     {
-      "testsTotal": 5,
-      "testsPassed": 5,
+      "testsTotal": 8,
+      "testsPassed": 8,
       "testsFailed": 0,
       "score": 1.0,
-      "elapsedSeconds": 0.00034114399750251323,
+      "benchmarkSeconds": 0.005595301001449116,
+      "benchmarkWorkload": {
+        "elapsedSeconds": 0.005595301001449116,
+        "imageCount": 80,
+        "postCount": 20,
+        "rowsWithCheckpoint": 80,
+        "totalPromptTags": 160,
+        "totalInlinePromptLoras": 160,
+        "rowsWithNegativePrompt": 80
+      },
+      "elapsedSeconds": 0.0066260349994990975,
       "failures": []
     },
     {
-      "testsTotal": 5,
-      "testsPassed": 5,
+      "testsTotal": 8,
+      "testsPassed": 8,
       "testsFailed": 0,
       "score": 1.0,
-      "elapsedSeconds": 0.0002861199973267503,
+      "benchmarkSeconds": 0.005793063999590231,
+      "benchmarkWorkload": {
+        "elapsedSeconds": 0.005793063999590231,
+        "imageCount": 80,
+        "postCount": 20,
+        "rowsWithCheckpoint": 80,
+        "totalPromptTags": 160,
+        "totalInlinePromptLoras": 160,
+        "rowsWithNegativePrompt": 80
+      },
+      "elapsedSeconds": 0.0067928499993286096,
       "failures": []
     },
     {
-      "testsTotal": 5,
-      "testsPassed": 5,
+      "testsTotal": 8,
+      "testsPassed": 8,
       "testsFailed": 0,
       "score": 1.0,
-      "elapsedSeconds": 0.00014278999879024923,
+      "benchmarkSeconds": 0.005623594999633497,
+      "benchmarkWorkload": {
+        "elapsedSeconds": 0.005623594999633497,
+        "imageCount": 80,
+        "postCount": 20,
+        "rowsWithCheckpoint": 80,
+        "totalPromptTags": 160,
+        "totalInlinePromptLoras": 160,
+        "rowsWithNegativePrompt": 80
+      },
+      "elapsedSeconds": 0.00662245800049277,
       "failures": []
     },
     {
-      "testsTotal": 5,
-      "testsPassed": 5,
+      "testsTotal": 8,
+      "testsPassed": 8,
       "testsFailed": 0,
       "score": 1.0,
-      "elapsedSeconds": 0.00018224499945063144,
+      "benchmarkSeconds": 0.0055642129991611,
+      "benchmarkWorkload": {
+        "elapsedSeconds": 0.0055642129991611,
+        "imageCount": 80,
+        "postCount": 20,
+        "rowsWithCheckpoint": 80,
+        "totalPromptTags": 160,
+        "totalInlinePromptLoras": 160,
+        "rowsWithNegativePrompt": 80
+      },
+      "elapsedSeconds": 0.006558477998623857,
       "failures": []
     }
   ],

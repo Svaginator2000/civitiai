@@ -1,2 +1,4 @@
-timestamp_utc	parser_fingerprint	quality_score	median_eval_seconds	status	description
-2026-03-20T15:31:09.977871+00:00	7b96cafc0a98	1.000000	0.000286	keep	baseline: inline prompt lora extraction + strict gate
+timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_seconds	status	description
+2026-03-20T15:31:09.977871+00:00	legacy-v1	7b96cafc0a98	1.000000	0.000286	keep	baseline: inline prompt lora extraction + strict gate
+2026-03-20T15:48:24.260600+00:00	fixture-suite-v2	478b73da71d3	1.000000	0.007170	keep	baseline: fixture-suite-v2 alias coverage + representative workload
+2026-03-20T15:48:52.552105+00:00	fixture-suite-v2	133433ce421a	1.000000	0.005624	keep	optimize prompt tag derivation to avoid double inline-lora parse
