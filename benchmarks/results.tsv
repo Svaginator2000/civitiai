@@ -51,3 +51,6 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T20:37:39.833256+00:00	enigmata-replay-v1	4d4ebd30ec58	1.000000	0.022038	keep	replace ternary with and in meta resources loop
 2026-03-20T20:38:59.104870+00:00	enigmata-replay-v1	c206ffaa38cb	1.000000	0.022439	discard	replace ternary with and in civitaiResources loop
 2026-03-20T20:40:17.246255+00:00	enigmata-replay-v1	0d3ae51ee92c	1.000000	0.021980	keep	replace ternary with and in build_generation_resource
+2026-03-20T20:41:43.205194+00:00	enigmata-replay-v1	816b040d3d9b	1.000000	0.022053	discard	replace ternary with and in ensure_checkpoint_resource
+2026-03-20T20:45:31.971218+00:00	enigmata-replay-v1	5e9295830f13	1.000000	0.029643	discard	replace dict or empty with and for checkpoint baseModel access
+2026-03-20T20:49:46.030763+00:00	enigmata-replay-v1	3f9cd19ba614	1.000000	0.027613	discard	batch cache loading in fetch_generation_data_for_image_ids
