@@ -4,3 +4,5 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T15:48:52.552105+00:00	fixture-suite-v2	133433ce421a	1.000000	0.005624	keep	optimize prompt tag derivation to avoid double inline-lora parse
 2026-03-20T15:58:34.487867+00:00	fixture-suite-v2	15f1de7c1091	1.000000	0.005978	discard	skip retries for non-retryable HTTP statuses during model lookups
 2026-03-20T16:07:00.607830+00:00	fixture-suite-v3	8a4450443f70	1.000000	0.031214	keep	warm-cache resolution fast-path + permanent 400/404 negative-cache
+2026-03-20T16:14:59.277571+00:00	fixture-suite-v3	8a4450443f70	1.000000	0.032878	discard	analysis baseline rerun before autoresearch pass
+2026-03-20T16:17:29.093108+00:00	fixture-suite-v3	ed03f73a0055	1.000000	0.022900	keep	optimize cache file-path + IO hot path for warm-cache resolution
