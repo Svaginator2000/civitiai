@@ -20,3 +20,9 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T19:01:37.445460+00:00	enigmata-replay-v1	b03434802eb9	1.000000	0.034416	discard	sqlite-backed cache store for lower cache IO overhead
 2026-03-20T19:02:18.202014+00:00	enigmata-replay-v1	4e5632589ec3	1.000000	0.031375	keep	avoid redundant checkpoint resource dedupe and classify resources in one pass
 2026-03-20T19:02:56.681845+00:00	enigmata-replay-v1	498403a3dc5f	1.000000	0.032792	discard	avoid generic dedupe for modelVersionRefs and fold generation ref collection into one pass
+2026-03-20T19:16:15.045001+00:00	enigmata-replay-v1	8654c1a9e0c4	1.000000	0.032216	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:17:51.958580+00:00	enigmata-replay-v1	8382817120e9	1.000000	0.031933	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:18:12.419786+00:00	enigmata-replay-v1	cc1d85e844af	1.000000	0.031809	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:18:52.814736+00:00	enigmata-replay-v1	4bdecc641cfd	1.000000	0.031530	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:19:30.825185+00:00	enigmata-replay-v1	037d45af8033	1.000000	0.031560	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:19:48.283575+00:00	enigmata-replay-v1	47303f7610e4	1.000000	0.031325	keep	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
