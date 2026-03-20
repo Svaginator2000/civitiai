@@ -9,3 +9,4 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T17:37:12.302352+00:00	fixture-suite-v3	01e409f5516c	1.000000	0.025447	discard	compact machine JSON output + lower parser allocation overhead
 2026-03-20T17:38:55.726085+00:00	fixture-suite-v3	91c75586f084	1.000000	0.023404	discard	lower parser allocations + inline warm-cache hit path
 2026-03-20T17:39:28.348251+00:00	fixture-suite-v3	9d94922e7ef2	1.000000	0.022762	keep	lower parser allocations + inline warm-cache hit path + lock-free cache stats
+2026-03-20T18:01:17.767139+00:00	enigmata-replay-v1	71094b06c766	1.000000	0.054178	keep	switch gate to frozen raw enigmata replay workload (cold+warm)
