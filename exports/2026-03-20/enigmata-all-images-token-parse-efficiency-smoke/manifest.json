@@ -1,0 +1,200 @@
+{
+  "runName": "enigmata-all-images-token-parse-efficiency-smoke",
+  "runSlug": "enigmata-all-images-token-parse-efficiency-smoke",
+  "sourceUrl": "https://civitai.com/user/enigmata/images",
+  "generatedAtUtc": "2026-03-20T17:42:00.115901+00:00",
+  "files": [
+    {
+      "name": "enigmata_token_parse_efficiency_smoke_images.json",
+      "bytes": 32366614,
+      "sha256": "283037867d9282852d6394daf9b88ce417899cb93e6590f6b07df35a5365ee06",
+      "originalPath": "/tmp/enigmata_token_parse_efficiency_smoke_images.json",
+      "repoPath": "exports/2026-03-20/enigmata-all-images-token-parse-efficiency-smoke/enigmata_token_parse_efficiency_smoke_images.json"
+    },
+    {
+      "name": "enigmata_token_parse_efficiency_smoke_images.csv",
+      "bytes": 13287726,
+      "sha256": "3e851cc28ad311d77339ec46bd4bbd1b90947672d15bf9bbc0a49c9bcd6f88e7",
+      "originalPath": "/tmp/enigmata_token_parse_efficiency_smoke_images.csv",
+      "repoPath": "exports/2026-03-20/enigmata-all-images-token-parse-efficiency-smoke/enigmata_token_parse_efficiency_smoke_images.csv"
+    },
+    {
+      "name": "enigmata_token_parse_efficiency_smoke_posts.json",
+      "bytes": 37963730,
+      "sha256": "5a79f12de5d0cab4b3b971a9d7e4ed26e4fde3a9aab978abbacc27e49176b9d9",
+      "originalPath": "/tmp/enigmata_token_parse_efficiency_smoke_posts.json",
+      "repoPath": "exports/2026-03-20/enigmata-all-images-token-parse-efficiency-smoke/enigmata_token_parse_efficiency_smoke_posts.json"
+    },
+    {
+      "name": "enigmata_token_parse_efficiency_smoke_posts.csv",
+      "bytes": 9233952,
+      "sha256": "6f3721600a062711e3a9cb914c70372f058a02b9226eb9d17cba05147a70cfbb",
+      "originalPath": "/tmp/enigmata_token_parse_efficiency_smoke_posts.csv",
+      "repoPath": "exports/2026-03-20/enigmata-all-images-token-parse-efficiency-smoke/enigmata_token_parse_efficiency_smoke_posts.csv"
+    },
+    {
+      "name": "enigmata_token_parse_efficiency_smoke_summary.json",
+      "bytes": 1660,
+      "sha256": "0ff8ff67a86843c1234ec1c947ff563ab95e1a1c35eb12c2952042684abb8f05",
+      "originalPath": "/tmp/enigmata_token_parse_efficiency_smoke_summary.json",
+      "repoPath": "exports/2026-03-20/enigmata-all-images-token-parse-efficiency-smoke/enigmata_token_parse_efficiency_smoke_summary.json"
+    }
+  ],
+  "benchmarkSummary": {
+    "timestampUtc": "2026-03-20T17:39:28.348251+00:00",
+    "benchmarkId": "fixture-suite-v3",
+    "parserFingerprint": "9d94922e7ef2",
+    "iterations": 5,
+    "qualityScore": 1.0,
+    "medianBenchmarkSeconds": 0.02276197999890428,
+    "status": "keep",
+    "reason": "candidate improved quality and/or speed without regressing either metric",
+    "baseline": {
+      "quality_score": 1.0,
+      "median_benchmark_seconds": 0.0229
+    },
+    "runs": [
+      {
+        "testsTotal": 11,
+        "testsPassed": 11,
+        "testsFailed": 0,
+        "score": 1.0,
+        "benchmarkSeconds": 0.021778546997666126,
+        "benchmarkWorkload": {
+          "combinedElapsedSeconds": 0.021778546997666126,
+          "fixtureElapsedSeconds": 0.0053603529995598365,
+          "cacheResolutionElapsedSeconds": 0.01641819399810629,
+          "imageCount": 80,
+          "postCount": 20,
+          "rowsWithCheckpoint": 80,
+          "totalPromptTags": 160,
+          "totalInlinePromptLoras": 160,
+          "rowsWithNegativePrompt": 80,
+          "cachedVersionCount": 1024,
+          "cachedHashCount": 768,
+          "negativeCachedVersionCount": 64,
+          "negativeCachedHashCount": 64,
+          "resolvedVersionHits": 960,
+          "resolvedHashHits": 704,
+          "versionResolverCalls": 0,
+          "hashResolverCalls": 0
+        },
+        "elapsedSeconds": 0.07052751499941223,
+        "failures": []
+      },
+      {
+        "testsTotal": 11,
+        "testsPassed": 11,
+        "testsFailed": 0,
+        "score": 1.0,
+        "benchmarkSeconds": 0.023751114000333473,
+        "benchmarkWorkload": {
+          "combinedElapsedSeconds": 0.023751114000333473,
+          "fixtureElapsedSeconds": 0.005770305000623921,
+          "cacheResolutionElapsedSeconds": 0.017980808999709552,
+          "imageCount": 80,
+          "postCount": 20,
+          "rowsWithCheckpoint": 80,
+          "totalPromptTags": 160,
+          "totalInlinePromptLoras": 160,
+          "rowsWithNegativePrompt": 80,
+          "cachedVersionCount": 1024,
+          "cachedHashCount": 768,
+          "negativeCachedVersionCount": 64,
+          "negativeCachedHashCount": 64,
+          "resolvedVersionHits": 960,
+          "resolvedHashHits": 704,
+          "versionResolverCalls": 0,
+          "hashResolverCalls": 0
+        },
+        "elapsedSeconds": 0.07249124699956155,
+        "failures": []
+      },
+      {
+        "testsTotal": 11,
+        "testsPassed": 11,
+        "testsFailed": 0,
+        "score": 1.0,
+        "benchmarkSeconds": 0.02276197999890428,
+        "benchmarkWorkload": {
+          "combinedElapsedSeconds": 0.02276197999890428,
+          "fixtureElapsedSeconds": 0.00590989799820818,
+          "cacheResolutionElapsedSeconds": 0.0168520820006961,
+          "imageCount": 80,
+          "postCount": 20,
+          "rowsWithCheckpoint": 80,
+          "totalPromptTags": 160,
+          "totalInlinePromptLoras": 160,
+          "rowsWithNegativePrompt": 80,
+          "cachedVersionCount": 1024,
+          "cachedHashCount": 768,
+          "negativeCachedVersionCount": 64,
+          "negativeCachedHashCount": 64,
+          "resolvedVersionHits": 960,
+          "resolvedHashHits": 704,
+          "versionResolverCalls": 0,
+          "hashResolverCalls": 0
+        },
+        "elapsedSeconds": 0.0710384990015882,
+        "failures": []
+      },
+      {
+        "testsTotal": 11,
+        "testsPassed": 11,
+        "testsFailed": 0,
+        "score": 1.0,
+        "benchmarkSeconds": 0.021850643002835568,
+        "benchmarkWorkload": {
+          "combinedElapsedSeconds": 0.021850643002835568,
+          "fixtureElapsedSeconds": 0.0056194010030594654,
+          "cacheResolutionElapsedSeconds": 0.016231241999776103,
+          "imageCount": 80,
+          "postCount": 20,
+          "rowsWithCheckpoint": 80,
+          "totalPromptTags": 160,
+          "totalInlinePromptLoras": 160,
+          "rowsWithNegativePrompt": 80,
+          "cachedVersionCount": 1024,
+          "cachedHashCount": 768,
+          "negativeCachedVersionCount": 64,
+          "negativeCachedHashCount": 64,
+          "resolvedVersionHits": 960,
+          "resolvedHashHits": 704,
+          "versionResolverCalls": 0,
+          "hashResolverCalls": 0
+        },
+        "elapsedSeconds": 0.07027025099887396,
+        "failures": []
+      },
+      {
+        "testsTotal": 11,
+        "testsPassed": 11,
+        "testsFailed": 0,
+        "score": 1.0,
+        "benchmarkSeconds": 0.024457206003717147,
+        "benchmarkWorkload": {
+          "combinedElapsedSeconds": 0.024457206003717147,
+          "fixtureElapsedSeconds": 0.005807295001432067,
+          "cacheResolutionElapsedSeconds": 0.01864991100228508,
+          "imageCount": 80,
+          "postCount": 20,
+          "rowsWithCheckpoint": 80,
+          "totalPromptTags": 160,
+          "totalInlinePromptLoras": 160,
+          "rowsWithNegativePrompt": 80,
+          "cachedVersionCount": 1024,
+          "cachedHashCount": 768,
+          "negativeCachedVersionCount": 64,
+          "negativeCachedHashCount": 64,
+          "resolvedVersionHits": 960,
+          "resolvedHashHits": 704,
+          "versionResolverCalls": 0,
+          "hashResolverCalls": 0
+        },
+        "elapsedSeconds": 0.0718625819972658,
+        "failures": []
+      }
+    ],
+    "resultsTsv": "/home/mpax/civitiai/benchmarks/results.tsv"
+  }
+}

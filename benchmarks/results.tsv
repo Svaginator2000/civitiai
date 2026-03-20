@@ -6,3 +6,6 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T16:07:00.607830+00:00	fixture-suite-v3	8a4450443f70	1.000000	0.031214	keep	warm-cache resolution fast-path + permanent 400/404 negative-cache
 2026-03-20T16:14:59.277571+00:00	fixture-suite-v3	8a4450443f70	1.000000	0.032878	discard	analysis baseline rerun before autoresearch pass
 2026-03-20T16:17:29.093108+00:00	fixture-suite-v3	ed03f73a0055	1.000000	0.022900	keep	optimize cache file-path + IO hot path for warm-cache resolution
+2026-03-20T17:37:12.302352+00:00	fixture-suite-v3	01e409f5516c	1.000000	0.025447	discard	compact machine JSON output + lower parser allocation overhead
+2026-03-20T17:38:55.726085+00:00	fixture-suite-v3	91c75586f084	1.000000	0.023404	discard	lower parser allocations + inline warm-cache hit path
+2026-03-20T17:39:28.348251+00:00	fixture-suite-v3	9d94922e7ef2	1.000000	0.022762	keep	lower parser allocations + inline warm-cache hit path + lock-free cache stats

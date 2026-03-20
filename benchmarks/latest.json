@@ -1,15 +1,15 @@
 {
-  "timestampUtc": "2026-03-20T16:17:29.093108+00:00",
+  "timestampUtc": "2026-03-20T17:39:28.348251+00:00",
   "benchmarkId": "fixture-suite-v3",
-  "parserFingerprint": "ed03f73a0055",
+  "parserFingerprint": "9d94922e7ef2",
   "iterations": 5,
   "qualityScore": 1.0,
-  "medianBenchmarkSeconds": 0.022899965002579847,
+  "medianBenchmarkSeconds": 0.02276197999890428,
   "status": "keep",
   "reason": "candidate improved quality and/or speed without regressing either metric",
   "baseline": {
     "quality_score": 1.0,
-    "median_benchmark_seconds": 0.031214
+    "median_benchmark_seconds": 0.0229
   },
   "runs": [
     {
@@ -17,11 +17,11 @@
       "testsPassed": 11,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.024938557999121258,
+      "benchmarkSeconds": 0.021778546997666126,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.024938557999121258,
-        "fixtureElapsedSeconds": 0.007291576999705285,
-        "cacheResolutionElapsedSeconds": 0.017646980999415973,
+        "combinedElapsedSeconds": 0.021778546997666126,
+        "fixtureElapsedSeconds": 0.0053603529995598365,
+        "cacheResolutionElapsedSeconds": 0.01641819399810629,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -37,7 +37,7 @@
         "versionResolverCalls": 0,
         "hashResolverCalls": 0
       },
-      "elapsedSeconds": 0.0758364370012714,
+      "elapsedSeconds": 0.07052751499941223,
       "failures": []
     },
     {
@@ -45,11 +45,11 @@
       "testsPassed": 11,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.02266222600155743,
+      "benchmarkSeconds": 0.023751114000333473,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.02266222600155743,
-        "fixtureElapsedSeconds": 0.005609015002846718,
-        "cacheResolutionElapsedSeconds": 0.01705321099871071,
+        "combinedElapsedSeconds": 0.023751114000333473,
+        "fixtureElapsedSeconds": 0.005770305000623921,
+        "cacheResolutionElapsedSeconds": 0.017980808999709552,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -65,7 +65,7 @@
         "versionResolverCalls": 0,
         "hashResolverCalls": 0
       },
-      "elapsedSeconds": 0.07287299900053767,
+      "elapsedSeconds": 0.07249124699956155,
       "failures": []
     },
     {
@@ -73,11 +73,11 @@
       "testsPassed": 11,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.023054135002894327,
+      "benchmarkSeconds": 0.02276197999890428,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.023054135002894327,
-        "fixtureElapsedSeconds": 0.005865068000275642,
-        "cacheResolutionElapsedSeconds": 0.017189067002618685,
+        "combinedElapsedSeconds": 0.02276197999890428,
+        "fixtureElapsedSeconds": 0.00590989799820818,
+        "cacheResolutionElapsedSeconds": 0.0168520820006961,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -93,7 +93,7 @@
         "versionResolverCalls": 0,
         "hashResolverCalls": 0
       },
-      "elapsedSeconds": 0.07448804399973596,
+      "elapsedSeconds": 0.0710384990015882,
       "failures": []
     },
     {
@@ -101,11 +101,11 @@
       "testsPassed": 11,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.022899965002579847,
+      "benchmarkSeconds": 0.021850643002835568,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.022899965002579847,
-        "fixtureElapsedSeconds": 0.005989994002447929,
-        "cacheResolutionElapsedSeconds": 0.016909971000131918,
+        "combinedElapsedSeconds": 0.021850643002835568,
+        "fixtureElapsedSeconds": 0.0056194010030594654,
+        "cacheResolutionElapsedSeconds": 0.016231241999776103,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -121,7 +121,7 @@
         "versionResolverCalls": 0,
         "hashResolverCalls": 0
       },
-      "elapsedSeconds": 0.0715384940012882,
+      "elapsedSeconds": 0.07027025099887396,
       "failures": []
     },
     {
@@ -129,11 +129,11 @@
       "testsPassed": 11,
       "testsFailed": 0,
       "score": 1.0,
-      "benchmarkSeconds": 0.022476997000921983,
+      "benchmarkSeconds": 0.024457206003717147,
       "benchmarkWorkload": {
-        "combinedElapsedSeconds": 0.022476997000921983,
-        "fixtureElapsedSeconds": 0.005893741999898339,
-        "cacheResolutionElapsedSeconds": 0.016583255001023645,
+        "combinedElapsedSeconds": 0.024457206003717147,
+        "fixtureElapsedSeconds": 0.005807295001432067,
+        "cacheResolutionElapsedSeconds": 0.01864991100228508,
         "imageCount": 80,
         "postCount": 20,
         "rowsWithCheckpoint": 80,
@@ -149,7 +149,7 @@
         "versionResolverCalls": 0,
         "hashResolverCalls": 0
       },
-      "elapsedSeconds": 0.0704117489985947,
+      "elapsedSeconds": 0.0718625819972658,
       "failures": []
     }
   ],
