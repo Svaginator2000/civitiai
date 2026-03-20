@@ -26,3 +26,11 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T19:18:52.814736+00:00	enigmata-replay-v1	4bdecc641cfd	1.000000	0.031530	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
 2026-03-20T19:19:30.825185+00:00	enigmata-replay-v1	037d45af8033	1.000000	0.031560	discard	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
 2026-03-20T19:19:48.283575+00:00	enigmata-replay-v1	47303f7610e4	1.000000	0.031325	keep	recover missing gallery nextCursor items and broaden reconcile base-model matching to resources
+2026-03-20T19:41:28.216960+00:00	enigmata-replay-v1	47303f7610e4	1.000000	0.033417	discard	baseline measurement before optimization planning
+2026-03-20T19:48:10.581949+00:00	enigmata-replay-v1	e3cab5f81cfe	1.000000	0.033084	discard	optimize cache path operations: f-string instead of os.path.join, inline safe_key check
+2026-03-20T19:49:33.788060+00:00	enigmata-replay-v1	47303f7610e4	1.000000	0.033481	discard	baseline verification after cache path revert
+2026-03-20T19:50:02.524425+00:00	enigmata-replay-v1	5702a1f8a108	1.000000	0.033755	discard	early return before ThreadPoolExecutor when all values cached
+2026-03-20T19:50:46.261157+00:00	enigmata-replay-v1	6594a4a64b87	1.000000	0.033753	discard	optimize resource_score: use sum with generator instead of int conversions
+2026-03-20T19:51:59.804726+00:00	enigmata-replay-v1	284f070150da	1.000000	0.030801	keep	cache inline_prompt_loras result to avoid duplicate extraction for promptTags
+2026-03-20T19:52:59.620292+00:00	enigmata-replay-v1	2db2229aceb8	1.000000	0.031207	discard	add lru_cache to normalize_text and normalize_hash for frequent value memoization
+2026-03-20T19:53:54.184360+00:00	enigmata-replay-v1	284f070150da	1.000000	0.030803	discard	final baseline verification after lru_cache revert
