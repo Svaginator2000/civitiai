@@ -48,3 +48,4 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T20:27:11.161747+00:00	enigmata-replay-v1	deecbdab1f75	1.000000	0.022354	keep	use orjson in json_dumps_machine for output serialization
 2026-03-20T20:28:42.540074+00:00	enigmata-replay-v1	b46d8db38251	1.000000	0.022230	keep	replace remaining json.dumps with json_dumps_machine in CSV writer
 2026-03-20T20:35:54.334489+00:00	enigmata-replay-v1	d5f503e19548	1.000000	0.022184	keep	replace ternary operators with and expressions in build_resource_records
+2026-03-20T20:37:39.833256+00:00	enigmata-replay-v1	4d4ebd30ec58	1.000000	0.022038	keep	replace ternary with and in meta resources loop
