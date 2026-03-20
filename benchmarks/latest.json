@@ -1,0 +1,53 @@
+{
+  "timestampUtc": "2026-03-20T15:31:09.977871+00:00",
+  "parserFingerprint": "7b96cafc0a98",
+  "iterations": 5,
+  "qualityScore": 1.0,
+  "medianEvalSeconds": 0.0002861199973267503,
+  "status": "keep",
+  "reason": "baseline",
+  "baseline": null,
+  "runs": [
+    {
+      "testsTotal": 5,
+      "testsPassed": 5,
+      "testsFailed": 0,
+      "score": 1.0,
+      "elapsedSeconds": 0.0004733340028906241,
+      "failures": []
+    },
+    {
+      "testsTotal": 5,
+      "testsPassed": 5,
+      "testsFailed": 0,
+      "score": 1.0,
+      "elapsedSeconds": 0.00034114399750251323,
+      "failures": []
+    },
+    {
+      "testsTotal": 5,
+      "testsPassed": 5,
+      "testsFailed": 0,
+      "score": 1.0,
+      "elapsedSeconds": 0.0002861199973267503,
+      "failures": []
+    },
+    {
+      "testsTotal": 5,
+      "testsPassed": 5,
+      "testsFailed": 0,
+      "score": 1.0,
+      "elapsedSeconds": 0.00014278999879024923,
+      "failures": []
+    },
+    {
+      "testsTotal": 5,
+      "testsPassed": 5,
+      "testsFailed": 0,
+      "score": 1.0,
+      "elapsedSeconds": 0.00018224499945063144,
+      "failures": []
+    }
+  ],
+  "resultsTsv": "/home/mpax/civitiai/benchmarks/results.tsv"
+}

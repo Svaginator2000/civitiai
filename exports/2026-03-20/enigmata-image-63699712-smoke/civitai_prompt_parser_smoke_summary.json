@@ -1,0 +1,34 @@
+{
+  "sourceUrl": "https://civitai.com/images/63699712",
+  "sourceKind": "image",
+  "apiUrl": "https://civitai.com/api/v1/images?imageId=63699712",
+  "requestedLimit": null,
+  "effectiveLimit": null,
+  "maxSupportedLimit": "200",
+  "requestedWasClamped": false,
+  "collectionMethod": "trpc:image.get",
+  "continuedScroll": false,
+  "usedApiKeyAuth": false,
+  "apiKeySource": null,
+  "generationDataMethod": "trpc:image.getGenerationData (batched)",
+  "generationDataFetched": 1,
+  "generationDataErrors": 0,
+  "cacheEnabled": true,
+  "cacheDir": "/home/mpax/.cache/civitai-prompt-parser",
+  "cacheStats": {
+    "generation_data_hits": 1,
+    "model_version_id_hits": 3,
+    "model_version_hash_hits": 3
+  },
+  "totalImages": 1,
+  "totalPosts": 1,
+  "resolvedHashes": 3,
+  "resolvedVersionIds": 3,
+  "outputFiles": {
+    "imagesJson": "/tmp/civitai_prompt_parser_smoke_images.json",
+    "imagesCsv": "/tmp/civitai_prompt_parser_smoke_images.csv",
+    "postsJson": "/tmp/civitai_prompt_parser_smoke_posts.json",
+    "postsCsv": "/tmp/civitai_prompt_parser_smoke_posts.csv",
+    "summaryJson": "/tmp/civitai_prompt_parser_smoke_summary.json"
+  }
+}

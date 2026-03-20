@@ -1,0 +1,96 @@
+{
+  "runName": "enigmata-image-63699712-smoke",
+  "runSlug": "enigmata-image-63699712-smoke",
+  "sourceUrl": "https://civitai.com/images/63699712",
+  "generatedAtUtc": "2026-03-20T15:36:14.363932+00:00",
+  "files": [
+    {
+      "name": "civitai_prompt_parser_smoke_images.json",
+      "bytes": 5372,
+      "sha256": "6d9fac8be5e4a747befb0c979c659ba7a234de182a3cee6ae200f9fe73c341b4",
+      "originalPath": "/tmp/civitai_prompt_parser_smoke_images.json",
+      "repoPath": "exports/2026-03-20/enigmata-image-63699712-smoke/civitai_prompt_parser_smoke_images.json"
+    },
+    {
+      "name": "civitai_prompt_parser_smoke_images.csv",
+      "bytes": 1884,
+      "sha256": "88f70c0d2be258238d9c5ec61570d1c5f7cf2afd79ac0caebb98fc9b6b430ca3",
+      "originalPath": "/tmp/civitai_prompt_parser_smoke_images.csv",
+      "repoPath": "exports/2026-03-20/enigmata-image-63699712-smoke/civitai_prompt_parser_smoke_images.csv"
+    },
+    {
+      "name": "civitai_prompt_parser_smoke_posts.json",
+      "bytes": 9457,
+      "sha256": "1258e03085cb44e6882d93b97e578c0f0912db94b4f6ff6ea9198a3f6ed7bf95",
+      "originalPath": "/tmp/civitai_prompt_parser_smoke_posts.json",
+      "repoPath": "exports/2026-03-20/enigmata-image-63699712-smoke/civitai_prompt_parser_smoke_posts.json"
+    },
+    {
+      "name": "civitai_prompt_parser_smoke_posts.csv",
+      "bytes": 1907,
+      "sha256": "c6111b2c7e46d9f6c8399aa65712c3a70f3fee98a489c8ff19492876995bb1ed",
+      "originalPath": "/tmp/civitai_prompt_parser_smoke_posts.csv",
+      "repoPath": "exports/2026-03-20/enigmata-image-63699712-smoke/civitai_prompt_parser_smoke_posts.csv"
+    },
+    {
+      "name": "civitai_prompt_parser_smoke_summary.json",
+      "bytes": 1144,
+      "sha256": "021ec722739662df6801f7e7bf6152272c54b199bca3ae8e1ac20b64fddc4463",
+      "originalPath": "/tmp/civitai_prompt_parser_smoke_summary.json",
+      "repoPath": "exports/2026-03-20/enigmata-image-63699712-smoke/civitai_prompt_parser_smoke_summary.json"
+    }
+  ],
+  "benchmarkSummary": {
+    "timestampUtc": "2026-03-20T15:31:09.977871+00:00",
+    "parserFingerprint": "7b96cafc0a98",
+    "iterations": 5,
+    "qualityScore": 1.0,
+    "medianEvalSeconds": 0.0002861199973267503,
+    "status": "keep",
+    "reason": "baseline",
+    "baseline": null,
+    "runs": [
+      {
+        "testsTotal": 5,
+        "testsPassed": 5,
+        "testsFailed": 0,
+        "score": 1.0,
+        "elapsedSeconds": 0.0004733340028906241,
+        "failures": []
+      },
+      {
+        "testsTotal": 5,
+        "testsPassed": 5,
+        "testsFailed": 0,
+        "score": 1.0,
+        "elapsedSeconds": 0.00034114399750251323,
+        "failures": []
+      },
+      {
+        "testsTotal": 5,
+        "testsPassed": 5,
+        "testsFailed": 0,
+        "score": 1.0,
+        "elapsedSeconds": 0.0002861199973267503,
+        "failures": []
+      },
+      {
+        "testsTotal": 5,
+        "testsPassed": 5,
+        "testsFailed": 0,
+        "score": 1.0,
+        "elapsedSeconds": 0.00014278999879024923,
+        "failures": []
+      },
+      {
+        "testsTotal": 5,
+        "testsPassed": 5,
+        "testsFailed": 0,
+        "score": 1.0,
+        "elapsedSeconds": 0.00018224499945063144,
+        "failures": []
+      }
+    ],
+    "resultsTsv": "/home/mpax/civitiai/benchmarks/results.tsv"
+  }
+}

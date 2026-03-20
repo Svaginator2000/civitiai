@@ -1,0 +1,250 @@
+[
+  {
+    "postId": 14208974,
+    "postPageUrl": "https://civitai.com/posts/14208974",
+    "username": "Enigmata",
+    "baseModels": [
+      "NoobAI"
+    ],
+    "imageCount": 1,
+    "imageIds": [
+      63699712
+    ],
+    "firstCreatedAt": "2025-03-15T18:27:43.319Z",
+    "lastCreatedAt": "2025-03-15T18:27:43.319Z",
+    "uniqueResources": [
+      {
+        "type": "model",
+        "rawName": "noobaiXLNAIXL_vPred10Version",
+        "hash": "ea349eeae8",
+        "weight": null,
+        "modelVersionId": 1190596,
+        "modelName": "NoobAI-XL (NAI-XL)",
+        "versionName": "V-Pred-1.0-Version",
+        "modelType": "Checkpoint",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/833294?modelVersionId=1190596"
+      },
+      {
+        "type": "lora",
+        "rawName": "noobai_ep11_stabilizer_v0.138_fp16",
+        "hash": "33d8271217ed",
+        "weight": 0.4,
+        "modelVersionId": 1308598,
+        "modelName": "Stabilizer IL/NAI/CK",
+        "versionName": "nbep11 v0.138",
+        "modelType": "LORA",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/971952?modelVersionId=1308598"
+      },
+      {
+        "type": "lora",
+        "rawName": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+        "hash": "9226b8365063",
+        "weight": null,
+        "modelVersionId": 1536871,
+        "modelName": "Takashiro Hiroko (Hentai: Bible Black) NoobAI-XL (Eps Illustrious / V-pred)",
+        "versionName": "NoobAIXL V-pred",
+        "modelType": "LORA",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/1360441?modelVersionId=1536871"
+      }
+    ],
+    "uniqueCheckpoints": [
+      {
+        "type": "model",
+        "rawName": "noobaiXLNAIXL_vPred10Version",
+        "hash": "ea349eeae8",
+        "weight": null,
+        "modelVersionId": 1190596,
+        "modelName": "NoobAI-XL (NAI-XL)",
+        "versionName": "V-Pred-1.0-Version",
+        "modelType": "Checkpoint",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/833294?modelVersionId=1190596"
+      }
+    ],
+    "uniqueLoras": [
+      {
+        "type": "lora",
+        "rawName": "noobai_ep11_stabilizer_v0.138_fp16",
+        "hash": "33d8271217ed",
+        "weight": 0.4,
+        "modelVersionId": 1308598,
+        "modelName": "Stabilizer IL/NAI/CK",
+        "versionName": "nbep11 v0.138",
+        "modelType": "LORA",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/971952?modelVersionId=1308598"
+      },
+      {
+        "type": "lora",
+        "rawName": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+        "hash": "9226b8365063",
+        "weight": null,
+        "modelVersionId": 1536871,
+        "modelName": "Takashiro Hiroko (Hentai: Bible Black) NoobAI-XL (Eps Illustrious / V-pred)",
+        "versionName": "NoobAIXL V-pred",
+        "modelType": "LORA",
+        "baseModel": "NoobAI",
+        "civitaiModelUrl": "https://civitai.com/models/1360441?modelVersionId=1536871"
+      }
+    ],
+    "uniqueInlinePromptLoras": [
+      {
+        "type": "LoRA",
+        "name": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+        "weight": 1.0,
+        "weightText": "1",
+        "tag": "<lora:Takashiro Hiroko 3216 NoobAIXL Vpred:1>"
+      },
+      {
+        "type": "LoRA",
+        "name": "noobai_ep11_stabilizer_v0.138_fp16",
+        "weight": 0.4,
+        "weightText": "0.4",
+        "tag": "<lora:noobai_ep11_stabilizer_v0.138_fp16:0.4>"
+      }
+    ],
+    "images": [
+      {
+        "imageId": 63699712,
+        "postId": 14208974,
+        "createdAt": "2025-03-15T18:27:43.319Z",
+        "imagePageUrl": "https://civitai.com/images/63699712",
+        "postPageUrl": "https://civitai.com/posts/14208974",
+        "username": "Enigmata",
+        "baseModel": "NoobAI",
+        "nsfwLevel": 1,
+        "generationProcess": "txt2img + Hi-Res",
+        "prompt": "masterpiece, good quality, best quality, absurdres, highres, very awa, bloom, shadow,\ntakashiro hiroko, 1girl, mature female, solo, holding book, cowboy shot,  hand up, V,\nlooking at viewer, smile, blush, head tilt,\npurple eyes, long hair, red hair, earrings,\nblouse, bowtie, blazer, red skirt, taut skirt, black thighhighs, garter straps,\ncurvy, large breasts,\nschool, window, sky, sunlight, city, complex background, sunset,\n<lora:Takashiro Hiroko 3216 NoobAIXL Vpred:1> <lora:noobai_ep11_stabilizer_v0.138_fp16:0.4>",
+        "negativePrompt": "worst aesthetic, worst quality, low quality, bad quality, lowres, dutch angle, extra digits, 6 fingers, 6 toes, flat color, traditional media, blurry, japanese text, text, watermark",
+        "promptTags": [
+          "Takashiro Hiroko 3216 NoobAIXL Vpred",
+          "noobai_ep11_stabilizer_v0.138_fp16"
+        ],
+        "inlinePromptLoras": [
+          {
+            "type": "LoRA",
+            "name": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+            "weight": 1.0,
+            "weightText": "1",
+            "tag": "<lora:Takashiro Hiroko 3216 NoobAIXL Vpred:1>"
+          },
+          {
+            "type": "LoRA",
+            "name": "noobai_ep11_stabilizer_v0.138_fp16",
+            "weight": 0.4,
+            "weightText": "0.4",
+            "tag": "<lora:noobai_ep11_stabilizer_v0.138_fp16:0.4>"
+          }
+        ],
+        "checkpoint": {
+          "type": "model",
+          "rawName": "noobaiXLNAIXL_vPred10Version",
+          "hash": "ea349eeae8",
+          "weight": null,
+          "modelVersionId": 1190596,
+          "modelName": "NoobAI-XL (NAI-XL)",
+          "versionName": "V-Pred-1.0-Version",
+          "modelType": "Checkpoint",
+          "baseModel": "NoobAI",
+          "civitaiModelUrl": "https://civitai.com/models/833294?modelVersionId=1190596"
+        },
+        "loras": [
+          {
+            "type": "lora",
+            "rawName": "noobai_ep11_stabilizer_v0.138_fp16",
+            "hash": "33d8271217ed",
+            "weight": 0.4,
+            "modelVersionId": 1308598,
+            "modelName": "Stabilizer IL/NAI/CK",
+            "versionName": "nbep11 v0.138",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/971952?modelVersionId=1308598"
+          },
+          {
+            "type": "lora",
+            "rawName": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+            "hash": "9226b8365063",
+            "weight": null,
+            "modelVersionId": 1536871,
+            "modelName": "Takashiro Hiroko (Hentai: Bible Black) NoobAI-XL (Eps Illustrious / V-pred)",
+            "versionName": "NoobAIXL V-pred",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/1360441?modelVersionId=1536871"
+          }
+        ],
+        "resourcesUsed": [
+          {
+            "type": "model",
+            "rawName": "noobaiXLNAIXL_vPred10Version",
+            "hash": "ea349eeae8",
+            "weight": null,
+            "modelVersionId": 1190596,
+            "modelName": "NoobAI-XL (NAI-XL)",
+            "versionName": "V-Pred-1.0-Version",
+            "modelType": "Checkpoint",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/833294?modelVersionId=1190596"
+          },
+          {
+            "type": "lora",
+            "rawName": "noobai_ep11_stabilizer_v0.138_fp16",
+            "hash": "33d8271217ed",
+            "weight": 0.4,
+            "modelVersionId": 1308598,
+            "modelName": "Stabilizer IL/NAI/CK",
+            "versionName": "nbep11 v0.138",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/971952?modelVersionId=1308598"
+          },
+          {
+            "type": "lora",
+            "rawName": "Takashiro Hiroko 3216 NoobAIXL Vpred",
+            "hash": "9226b8365063",
+            "weight": null,
+            "modelVersionId": 1536871,
+            "modelName": "Takashiro Hiroko (Hentai: Bible Black) NoobAI-XL (Eps Illustrious / V-pred)",
+            "versionName": "NoobAIXL V-pred",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/1360441?modelVersionId=1536871"
+          }
+        ],
+        "modelVersionRefs": [
+          {
+            "modelVersionId": 1190596,
+            "versionName": "V-Pred-1.0-Version",
+            "modelId": 833294,
+            "modelName": "NoobAI-XL (NAI-XL)",
+            "modelType": "Checkpoint",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/833294?modelVersionId=1190596"
+          },
+          {
+            "modelVersionId": 1308598,
+            "versionName": "nbep11 v0.138",
+            "modelId": 971952,
+            "modelName": "Stabilizer IL/NAI/CK",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/971952?modelVersionId=1308598"
+          },
+          {
+            "modelVersionId": 1536871,
+            "versionName": "NoobAIXL V-pred",
+            "modelId": 1360441,
+            "modelName": "Takashiro Hiroko (Hentai: Bible Black) NoobAI-XL (Eps Illustrious / V-pred)",
+            "modelType": "LORA",
+            "baseModel": "NoobAI",
+            "civitaiModelUrl": "https://civitai.com/models/1360441?modelVersionId=1536871"
+          }
+        ]
+      }
+    ]
+  }
+]
