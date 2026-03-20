@@ -12,7 +12,7 @@ This repository stores two things:
 ## Layout
 
 - `benchmarks/results.tsv`: autoresearch-style keep/discard history
-- `benchmarks/latest.json`: most recent benchmark summary
+- `benchmarks/latest.json`: most recent kept benchmark summary
 - `exports/<YYYY-MM-DD>/<run-name>/`: published skill outputs plus a manifest
 - `exports/index.jsonl`: append-only export index
 - `scripts/publish_skill_results.py`: copy a completed skill run into this repo

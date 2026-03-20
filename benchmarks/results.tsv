@@ -14,3 +14,9 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T18:11:18.497785+00:00	enigmata-replay-v1	9b76e6a26f9b	1.000000	0.046555	discard	increase default generation batch size and cut successful TRPC delay
 2026-03-20T18:12:09.709262+00:00	enigmata-replay-v1	0a4088d2f282	1.000000	0.032423	keep	increase default generation batch size, reduce success delay, and remove replay deepcopy overhead
 2026-03-20T18:16:02.239074+00:00	enigmata-replay-v1	6ea866a4b3f1	1.000000	0.031719	keep	raise default generation batch size to 128 and sync replay workload
+2026-03-20T18:53:58.068839+00:00	enigmata-replay-v1	6ea866a4b3f1	1.000000	0.035031	discard	analysis baseline snapshot before planning
+2026-03-20T18:54:15.745552+00:00	enigmata-replay-v1	6ea866a4b3f1	1.000000	0.070721	discard	profile snapshot
+2026-03-20T18:59:35.607341+00:00	enigmata-replay-v1	6ea866a4b3f1	1.000000	0.034375	discard	autonomous baseline before optimization pass
+2026-03-20T19:01:37.445460+00:00	enigmata-replay-v1	b03434802eb9	1.000000	0.034416	discard	sqlite-backed cache store for lower cache IO overhead
+2026-03-20T19:02:18.202014+00:00	enigmata-replay-v1	4e5632589ec3	1.000000	0.031375	keep	avoid redundant checkpoint resource dedupe and classify resources in one pass
+2026-03-20T19:02:56.681845+00:00	enigmata-replay-v1	498403a3dc5f	1.000000	0.032792	discard	avoid generic dedupe for modelVersionRefs and fold generation ref collection into one pass
