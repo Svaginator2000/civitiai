@@ -34,3 +34,4 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T19:51:59.804726+00:00	enigmata-replay-v1	284f070150da	1.000000	0.030801	keep	cache inline_prompt_loras result to avoid duplicate extraction for promptTags
 2026-03-20T19:52:59.620292+00:00	enigmata-replay-v1	2db2229aceb8	1.000000	0.031207	discard	add lru_cache to normalize_text and normalize_hash for frequent value memoization
 2026-03-20T19:53:54.184360+00:00	enigmata-replay-v1	284f070150da	1.000000	0.030803	discard	final baseline verification after lru_cache revert
+2026-03-20T20:01:33.946476+00:00	enigmata-replay-v1	150e3cae6184	1.000000	0.030750	keep	batch cache loading: load_many to reduce file open overhead
