@@ -11,3 +11,5 @@ timestamp_utc	benchmark_id	parser_fingerprint	quality_score	median_benchmark_sec
 2026-03-20T17:39:28.348251+00:00	fixture-suite-v3	9d94922e7ef2	1.000000	0.022762	keep	lower parser allocations + inline warm-cache hit path + lock-free cache stats
 2026-03-20T18:01:17.767139+00:00	enigmata-replay-v1	71094b06c766	1.000000	0.054178	keep	switch gate to frozen raw enigmata replay workload (cold+warm)
 2026-03-20T18:05:47.201429+00:00	enigmata-replay-v1	190e6520209a	1.000000	0.045984	keep	avoid repeated cache mkdirs and cheaper resource scoring
+2026-03-20T18:11:18.497785+00:00	enigmata-replay-v1	9b76e6a26f9b	1.000000	0.046555	discard	increase default generation batch size and cut successful TRPC delay
+2026-03-20T18:12:09.709262+00:00	enigmata-replay-v1	0a4088d2f282	1.000000	0.032423	keep	increase default generation batch size, reduce success delay, and remove replay deepcopy overhead
